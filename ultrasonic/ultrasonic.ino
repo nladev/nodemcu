@@ -1,21 +1,21 @@
 #define BLYNK_PRINT Serial
 
 /* Fill-in your Template ID (only if using Blynk.Cloud) */
-#define BLYNK_TEMPLATE_ID "TMPLiFW1YUQe"
+#define BLYNK_TEMPLATE_ID "##"
 #define BLYNK_DEVICE_NAME "Quickstart Template"
-#define BLYNK_AUTH_TOKEN "Rehdlp0-5g-FfSr6um4Lm162F_hRmlhT"
+#define BLYNK_AUTH_TOKEN "##"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "Rehdlp0-5g-FfSr6um4Lm162F_hRmlhT";
+char auth[] = "##";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
 char ssid[] = "ProLab";
-char pass[] = "myanmar@@@";
+char pass[] = "*******";
 
 const int trigPin = 12;
 const int echoPin = 14;
